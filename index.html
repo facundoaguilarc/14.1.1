@@ -11,7 +11,113 @@
       crossorigin="anonymous"
     />
   </head>
+
   <body>
+    <!-- Barra de Navegacion -->
+    <nav class="navbar navbar-expand-lg bg-secondary">
+      <div class="container-fluid ">
+        <a class="navbar-brand text-light" href="#">Stoic</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse " id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto  mb-2 mb-lg-0">
+            <li class="nav-item order-1">
+              <a class="nav-link active text-light" aria-current="page" href="#"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item order-2">
+              <a class="nav-link active text-light" aria-current="page" href="#"
+                >Link</a
+              >
+            </li>
+            <li class="nav-item d-lg-none order-3">
+              <a
+                class="nav-link active text-light"
+                aria-current="page"
+                href="#options"
+                >Opciones</a
+              >
+            </li>
+          </ul>
+          <form class="d-flex order-0" role="search">
+            <input
+              class="form-control me-2"
+              type="search"
+              placeholder="Search"
+              aria-label="Search"
+            />
+            <!--<button class="btn btn-outline-success" type="submit">Search</button>-->
+          </form>
+        </div>
+      </div>
+    </nav>
+    <!-- Encabezado -->
+    <h1 class="text-center">Stoicism</h1>
+    <!-- Contenido -->
+    <div class="row gap-2">
+      <!-- Botones -->
+      <div id="options" class="col-lg-3 btn-group-vertical">
+        <a class="  btn border-dark text-decoration-underline"
+          href="#p1">Seneca</a>
+        </button>
+        <a class="  btn border-dark text-decoration-underline"
+           href="#p2">Epicteto</a>
+        </button>
+        <a  class="  btn border-dark text-decoration-underline"
+          href="#p3">Seneca 2</a>
+        </button>
+          <a class=" btn border-dark text-decoration-underline" href="#p4">Marco Aurelio</a>
+       
+      </div>
+      <!-- Parrafos -->
+      <div class="col-lg-9 col-md-12 row">
+        <p id="p1" class="col-lg-3 col-md-6 text-center">
+          "No nos atrevemos a muchas cosas porque son difíciles, pero son
+          difíciles porque no nos atrevemos a hacerlas". - Séneca <br />
+          <br />
+          Esta cita nos recuerda que nuestros propios pensamientos y actitudes
+          pueden ser más limitantes que las circunstancias reales. Cuando nos
+          enfrentamos a un desafío, es importante recordar que podemos superarlo
+          si somos valientes y nos esforzamos.
+        </p>
+        <p id="p2" class="col-lg-3 col-md-6 text-center">
+          "Lo que está en nuestro poder es nuestra opinión sobre las cosas, no
+          las cosas mismas". - Epicteto <br /><br />
+          Esta cita es una de las más fundamentales del estoicismo. Enseña que
+          no podemos controlar lo que sucede en el mundo, pero sí podemos
+          controlar cómo reaccionamos a ello. Nuestra opinión sobre las cosas es
+          lo que nos da poder, y podemos elegir verlas de una manera que nos
+          permita ser felices y satisfechos.
+        </p>
+        <p id="p3" class="col-lg-3 col-md-6 text-center">
+          "La vida es como una leyenda: no importa que sea larga, sino que esté
+          bien narrada". - Séneca <br /><br />
+          Esta cita nos recuerda que la vida es una experiencia que debemos
+          vivir al máximo. No importa cuánto tiempo vivamos, sino que lo
+          aprovechemos al máximo. Debemos esforzarnos por vivir una vida
+          significativa y digna de ser recordada.
+        </p>
+        <p id="p4" class="col-lg-3 col-md-6 text-center">
+          "La mejor venganza es no ser como tu enemigo". - Marco Aurelio
+          <br /><br />
+          Esta cita nos enseña que la venganza es un sentimiento inútil que solo
+          nos hace daño. En cambio, debemos elegir ser mejores que los que nos
+          han hecho daño. Debemos perdonarlos y seguir adelante con nuestras
+          vidas.
+        </p>
+      </div>
+    </div>
+    <!-- Scripts -->
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"
       integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V"
